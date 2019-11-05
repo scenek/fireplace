@@ -32,7 +32,7 @@ class base {
   ssh_authorized_key { 'kristian.lesko@gooddata.com':
     user   => $::cfg::user,
     ensure => present,
-    key    => 'AAAAB3NzaC1yc2EAAAADAQABAAACAQDCepce4WJp1n+PeMKUCYern2RF/GIbOq39IhgjkdqditfBTNeHCMfYpdy/Nn20SxNgJ1qu3zvEMFmBN9MDZ0u/X/crDeM6LHgi5wpnXiKmQTqKvNvbfmLlH6pgXEg019ObHLR8mxus62lbvuvWocXaQW9OZM8gS6Kes6lG405zccQklZUNvquyXHitJW9za5A1pbZDa4LbBi2qjcUHKL+cREl/fUWjAHbAlMCCIZ0QrEKo9gHGG0qVl2TtKczpIuO4cm9P//fu0FDDvG9JvCJzpcMjBsWWRDjTEMqTV5b4IknmqKgt1cMr88nTx43QwZksi2iRk3cAkDYdo+5U8gwfVvHA/PW8ek+UqtbdYfahl63jXRqw1kD8SxNI7799D17Fe6/FzMffym2ScZgSybtIooZVuUu0DbF+jeewNe0ST63B1VuW9+c5/ZrOkNLmzdiElpVRg8ZptezUxqZSKh8lID+TPev5Qx1gmkn3JWAB16/gruo49tqzecizHN5SQEvNk8Wu5UvAMgeJ9FqHxsM2ZxgKZSZZafVKme4oGQjbMeIxXeYdXVuyK/uYTw9YnUN75ZP7h7Wj44UEoBB35vamjyv3E27/6v9XtwVbO3mEPJUCgci3fU7NI6Cb1CsTmvWD19SyfKQsNYvowZqGyioeBGo+hFXYCK5ch+VYCztXJQ==',
+    key    => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDIex8l2LMSH1Z23LLkpTvbK+ktoHLUttQFKltskstw4gpO7P4eT2c5EAjfQYFQgozt47g20f3UJ7BAq0dTurd2bVAAq1KF0T9nhGpP9iHRVj1jEdxR6FN6S9+2ebullDR6lgX1mBRmcTqp0W0+JMur8ZqXnqGEP63TFW3os2h0u794Qkn66qfJMxBgW9B5dSGy4gWmcNj050LSjX7OnRxEwDJWWyibXERCWi+xLjP/4jGkxnXccS8dp0iup2vmTTnpl+UiMqPgxM3dUKJ0nOQJK78Zphc+reyJ4p52DGtrPhVy9XuY/ynN3ybusyji5GgoWI7OehF3jUVXdVzJgdY9',
     type   => 'ssh-rsa'
   }
 
